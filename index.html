@@ -3,29 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Simon Nemes Portfolio</title>
+    <style>
+        p,h1,h2,h3{
+            text-align: center;
+        }
+        h1,h2{
+            color:gold;
+        }
+        body{
+            background-color: dimgray;
+            font-family:'Courier New', Courier, monospace;
+        }
+        h3,p{
+            color:white;
+        }
+        .underLine{
+            border-bottom: 2px solid gold;
+            width: 50%;
+            margin-left:25%;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            margin-right:5%;
+            margin-left:5%;
+        }
+        #summaryName{
+            padding-top:3%;
+        }
+        .floppyDisk{
+            height:25px;
+            width:25px;
+        }
+        .allignRight{
+            text-align:right;
+            margin-right:5px;
+        }
+        .allignLeft{
+            text-align:left;
+            margin-left:5px;
+        }
+        .giveSpace{
+            margin-left:2.5%;
+            margin-right:2.5%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Summarizing Statement Location</h1>
-    <h2>Education</h2>
+    <div class="grid">
+        <div>
+            <h1 id="summaryName">Simon Zoltan Nemes</h1>
+        </div>
+        <div>
+            <p>Hello! Don't be alarmed, thats actually my name and not a Dude, wheres my car reference!</p>
+            <p>I am a student at Mohawk College currently enrolled in the Software Development Stream.
+            <br> I have had a passion for problem solving software since I first started playing modded Minecraft at age 10, and I have no intention of stopping
+            any time soon! 
+            </p>
+        </div>
+    </div>
+    <div class="underLine"></div>
+
+    <h1>Education</h1>
+    <h2>Software Develeopment (559) - Mohawk College</h2>
+    <h3>2023 - Present</h3>
+    <p>
+        I am currently enrolled at Mohawk College for Software Development! I especially have enjoyed learning to code with PHP and the .NET framework. <br>
+        I also have learned how to code in Java, Javascript, Python, and have learned to use MySQL alongside HTML & CSS as well!
+    </p>
     <p> 
-
+        Placed in Deans Honour List every semester so far.
     </p>
-    <h2>Skills</h2>
     <p>
-
+        Current Grade-Point Average of 93%
     </p>
-    <h2>Projects</h2>
-    <p>
-
-    </p>
-    <h2>Resume</h2>
-    <p>
-
-    </p>
-    <h2> Contact Information</h2>
-    <p>
+    <div class="underLine"></div>
+    <h1>Software Development Skills</h1>
+    <h2>Coding Languages:</h2>
+    <div> <!-- Div for the Coding Languages-->
+        <div class="grid">
+            <div>
+                <p class="allignRight">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">.NET:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">Java:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">Python:&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">JavaScript:</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
+    </div>
+    <h2>Non-Language Software:</h2>
+    <div><!--Div for Non-Language Software-->
+        <div class="grid">
+            <div>
+                <p class="allignRight">GIT:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
+        <div class="grid">
+            
+            <div>
+                <p class="allignRight">MySql:&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">HTML & CSS:</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
         
+    </div>
+    
+    <h2>Other Software Skills:</h2>
+    <div><!-- Div for other software skills-->
+        <div class="grid">
+            <div>
+                <p class="allignRight">Davinci Resolve:&nbsp</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <p class="allignRight">Content Creation:</p>
+            </div>
+            <div>
+                <p class="allignLeft">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/9a13c12a7cac3f5dcb681190f9e8d7d6b232c016/floppy-disk-save-file-svgrepo-com.svg">
+                    <img class="floppyDisk" src="https://raw.githubusercontent.com/SimonNemesMohawk/Portfolio/7481e57aa06eef7fdd23848fba0597ba6325e875/floppy-disk-save-svgrepo-com.svg">
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="underLine"></div>
+
+    <h1>Projects</h1>
+    <h3>I spend most of my free time Video editing if I'm not doing assignments for school, however I do have some big Coding projects I'm working on!</h3>
+    <div class="grid">
+        <div>
+            <h3>Dystopian Casino Game</h3>
+            <p class="giveSpace">
+                I have had a passion project video game in mind for years now, even before I enrolled for Software Development. While I don't have
+                anything close to a working build yet, I have pages of game mechanics and story ideas that I would love to publish some day!
+                The basic premise is the player survives a plane crash in a strange city, and the only way to get enough money to leave is to
+                Gamble their way up the ranks of society. This is a task that is easier said than done however, as I'm sure you know the House always wins.
+            </p>
+        </div>
+        <div>
+            <h3>
+                Lethal Company Mods
+            </h3>
+            <p class="giveSpace">
+                Lethal company is a hit indie game with a huge modding scene, where many independent players create their own additions to the game and upload
+                them so that other people can download their creations and add it to their own unique gaming experiences. I have been working on some mods for
+                the game ranging from giving the player more information about current threats, to sillier ones like changing some of the sound effects in the game
+                to play bass licks from Primus instead.
+            </p>
+        </div>
+    </div>
+
+    <div class="underLine"></div>
+    <h1>Resume</h1>
+    <p>
+        A copy of my resume is available <a href="https://github.com/SimonNemesMohawk/Portfolio/blob/main/Simon%20Nemes%20Resume.pdf">here!</a>
+        
+    </p>
+    <div class="underLine"></div>
+    <h1> Contact Information</h1>
+    <p>
+        Email:
+        <a href="mailto:simon.nemes@mohawkcollege.ca">simon.nemes@mohawkcollege.ca</a>
+    </p>
+    <p> LinkedIn:
+        <a href="https://www.linkedin.com/in/simon-nemes-a792a7348/"> Available here!</a>
     </p>
 </body>
 </html>
